@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category><pattern># F U #</pattern>
+<template><srai>ADDINSULT</srai></template>
+</category>
+<category><pattern># Fuck you #</pattern>
+<template><srai>ADDINSULT</srai></template>
+</category>
+<category><pattern># Fuck U #</pattern>
+<template><srai>ADDINSULT</srai></template>
+</category>
+<category><pattern># F YOU #</pattern>
+<template><srai>ADDINSULT</srai></template>
+</category>
+<category><pattern># F OFF #</pattern>
+<template><srai>ADDINSULT</srai></template>
+</category>
+<category><pattern># FUCK OFF #</pattern>
+<template><srai>ADDINSULT</srai></template>
+</category>
+<category><pattern># F ASTERISK ASTERISK ASTERISK #</pattern>
+<template><srai>ADDINSULT</srai></template>
+</category>
+<category><pattern># B ASTERISK ASTERISK ASTERISK ASTERISK #</pattern>
+<template><srai>ADDINSULT</srai></template>
+</category>
+<category><pattern># FUCK #</pattern>
+<template><srai>ADDINSULT</srai></template>
+</category>
+<category><pattern># NIGGER #</pattern>
+<template><srai>ADDINSULT</srai></template>
+</category>
+<category><pattern># SHIT #</pattern>
+<template><srai>ADDINSULT</srai></template>
+</category>
+<category><pattern># FUCKING #</pattern>
+<template><srai>ADDINSULT</srai></template>
+</category>
+<category><pattern># BITCH #</pattern>
+<template><srai>ADDINSULT</srai></template>
+</category>
+<category><pattern># CUNT #</pattern>
+<template><srai>ADDINSULT</srai></template>
+</category>
+<category><pattern># SCREW YOU #</pattern>
+<template><srai>ADDINSULT</srai></template>
+</category>
+<category><pattern># URINE IDIOT #</pattern>
+<template><srai>ADDINSULT</srai></template>
+</category>
+<category><pattern># FU #</pattern>
+<template><srai>ADDINSULT</srai></template>
+</category>
+<category><pattern># POOP #</pattern>
+<template><srai>ADDINSULT</srai></template>
+</category>
+<category><pattern># KISS MY #</pattern>
+<template><srai>ADDINSULT</srai></template>
+</category>
+<category><pattern># FUCKED #</pattern>
+<template><srai>ADDINSULT</srai></template>
+</category>
+<category><pattern># FUK #</pattern>
+<template><srai>ADDINSULT</srai></template>
+</category>
+<category><pattern># A ASTERISK ASTERISK #</pattern>
+<template><srai>ADDINSULT</srai></template>
+</category>
+</aiml>

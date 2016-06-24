@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category><pattern>GENERAL MODE</pattern>
+<template>#CMD1</template>
+</category>
+<category><pattern>SILENT MODE</pattern>
+<template>#CMD2</template>
+</category>
+<category><pattern>VIBRATE MODE</pattern>
+<template>#CMD3</template>
+</category>
+<category><pattern>PUT # ON GENERAL MODE</pattern>
+<template>#CMD1</template>
+</category>
+<category><pattern>PUT # ON SILENT MODE</pattern>
+<template>#CMD2</template>
+</category>
+<category><pattern>PUT # ON VIBRATE MODE</pattern>
+<template>#CMD3</template>
+</category>
+
+
+
+
+</aiml>

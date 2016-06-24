@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category><pattern>SETFIRSTNAME *</pattern>
+<template>
+<think>
+<srai>SET GENDER FROM NAME <star/></srai>
+<set name="name"><formal><star/></formal></set>
+<set name="firstname"><get name="name"/></set>
+</think></template>
+</category>
+<category><pattern>GETFIRSTNAME</pattern>
+<template>
+<get name="firstname"/>
+</template>
+</category>
+<category><pattern>SETMIDDLENAME *</pattern>
+<template>
+<think>
+<set name="middlename"><formal><star/></formal></set>.
+<set name="father"><get name="middlename"/></set>
+</think></template>
+</category>
+<category><pattern>GETMIDDLENAME</pattern>
+<template>
+<get name="middlename"/>
+</template>
+</category>
+<category><pattern>SETLASTNAME *</pattern>
+<template>
+<think>
+<set name="lastname"><formal><star/></formal></set>.
+</think></template>
+</category>
+<category><pattern>GETlASTNAME</pattern>
+<template>
+<get name="lastname"/>
+</template>
+</category>
+<category><pattern>SETGENDER *</pattern>
+<template>
+<think><set name="gender"><star/></set></think>
+</template></category>
+<category><pattern>GETGENDER</pattern>
+<template>
+<get name="gender"/>
+</template>
+</category>
+<category><pattern>SETAGE *</pattern>
+<template>
+<think>
+<set name="age"><formal><star/></formal></set>.
+</think></template>
+</category>
+<category><pattern>GETAGE</pattern>
+<template>
+<get name="age"/>
+</template>
+</category>
+</aiml>

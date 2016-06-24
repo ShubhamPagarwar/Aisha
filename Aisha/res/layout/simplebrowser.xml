@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"> 
+
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="10">
+    
+    <EditText
+        android:id="@+id/eturl"
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:layout_weight="2">
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/bgo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go" />
+
+  </LinearLayout>
+  <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="8">
+ 
+   <Button
+       android:id="@+id/bBack"
+       android:layout_width="48dp"
+       android:layout_height="34dp"
+       android:text="&lt;-" />
+
+    <Button
+        android:id="@+id/bForward"
+        android:layout_width="48dp"
+        android:layout_height="34dp"
+        android:text="->" />
+
+    <Button
+        android:id="@+id/bRefresh"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:text="Refresh Page" />
+
+    <Button
+        android:id="@+id/bHistory"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:text="Clear History" />
+
+</LinearLayout>
+<WebView android:layout_width="fill_parent"  android:layout_height="fill_parent"
+    android:id="@+id/wbrowser"/>"
+</LinearLayout>

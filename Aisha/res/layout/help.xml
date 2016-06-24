@@ -1,0 +1,36 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/background"
+    tools:context=".MainActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+         >
+    
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text='\tWelcome To Aisha\n\n\n Commands for Personal Assistant\n\n 1. For opening Internet\n say \"Open web"\ or \"set web"\ 
+		\n\n 2. For Setting Alarm\n say \"set Alarm"\n\n 3. For Play all Song\n say \"songs"\
+		\n\n 4. For play particular song\n say \"play song song_name"\
+		\n\n5. For Opening Any Application\n say \"open app name"\n\n6.For Changing Mode i.e SilentGeneral,Vibrate \n say \"put Mobile on Silent,General,Vibrate Mode"\n\n7.For Playing Video\n say \"play video video name"\n\n 8.For Video Songs List \n say \"Videos" \t'
+		
+        android:textColor="@color/foreground" />
+        
+        
+    </ScrollView>
+
+    
+</RelativeLayout>
